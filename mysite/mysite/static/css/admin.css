@@ -1,0 +1,260 @@
+/* Custom style for admin panel */
+
+body{
+    color: #fff;
+    background: #212121;
+}
+
+#header, .module caption, div.breadcrumbs{
+    background-color: #000;
+}
+
+#user-tools{
+    text-decoration: none;
+    color: #fff;
+}
+
+#user-tools a:hover{
+    text-decoration: none;
+    border-color:#bc6ff1;
+    color:#bc6ff1;
+}
+
+/* branding Source-Py Administration */
+#branding h1 a:visited, a.section:link, a.section:visited, h1{
+    color: #bc6ff1 !important;
+}
+
+
+.dashboard{
+    background-color: #424242;
+    background: #212121;
+
+    /* background: rgb(45,51,56,);
+    background: linear-gradient(90deg, rgba(45,51,56,0.6) 0%, rgba(45,51,56,0.6) 16%, rgba(93,58,112,0.6) 100%); */
+}
+
+a:link, a:visited{
+    color: #fff;
+}
+a:hover{
+    color:#bc6ff1;
+}
+
+#content-related .module, #content-related{
+    background: #212121;
+}
+
+#content-related .module h2{
+    color:#bc6ff1;
+}
+
+#content-related h3{
+    color: #bc6ff1;
+}
+
+tr:nth-child(2n+1), tr:nth-child(2n){
+    background: #212121;
+    border-bottom: 1px solid #212121 !important;
+}
+
+td, th, #content-related .module h2{
+    border-bottom: 1px solid #424242  ;
+}
+
+.object-tools a.addlink:hover{
+    color: #fff;
+    background: #4a148c ;
+}
+
+.object-tools a.addlink{
+    color: #fff;
+    background: #424242  ;
+}
+
+#nav-sidebar, #nav-sidebar .current-model{
+    background: #212121;
+}
+
+#nav-sidebar{
+    border-right: #212121;
+}
+
+.toggle-nav-sidebar{
+    border: 1px solid #424242 ;
+    background: #424242 ;
+}
+
+.toggle-nav-sidebar:hover, .toggle-nav-sidebar:focus, #changelist-filter{
+    background: #212121 !important;
+}
+
+#changelist .actions, thead th a:link, thead th a:visited{
+    color: #fff !important;
+    background-color: #212121;
+}
+
+#changelist .actions{
+    background-color: #212121 !important;
+}
+
+#changelist .actions select{
+    background: #eeeeee    !important;
+    color: #000 !important;
+}
+
+#changelist .actions .button {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    background-color: #212121 !important;
+    border-color: #6a1b9a !important;
+    color: #fff !important;
+}
+
+#changelist .actions .button:hover {
+    background-color: #6a1b9a !important;
+    border-color: #6a1b9a !important;
+}
+
+#changelist .paginator{
+    color: #fff !important;
+    background-color: #212121 !important;
+    border-bottom: 1px solid #424242 !important;
+    border-top: none;
+}
+
+thead th, tfoot td{
+    border-bottom: 1px solid #424242 !important;
+}
+
+#changelist table tbody tr.selected{
+    background-color: rgba(69, 39, 160, 0.85) !important;
+}
+
+#changelist table thead th{
+    border: none;
+    background-color: #212121 !important;
+}
+
+.module{
+    background-color: #212121 !important;
+}
+
+#toolbar{
+    background-color: #212121 !important;
+    border-top: 1px solid #424242 !important;
+    border-bottom: 1px solid #424242 !important;
+}
+
+#toolbar form input[type="submit"]{
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    background-color: #212121 !important;
+    border-color: #6a1b9a !important;
+    color: #fff !important;
+}
+
+#toolbar form input[type="submit"]:hover {
+    background-color: #6a1b9a !important;
+    border-color: #6a1b9a !important;
+}
+
+#toolbar form input{
+    background: #eeeeee    !important;
+    color: #000 !important;
+}
+
+.module h2, .module caption, .inline-group h2{
+    color: #fff;
+    background: #000;
+}
+
+#changelist-filter h3{
+    color: #fff;
+}
+
+#changelist-filter li.selected{
+    border-left: 5px solid#6a1b9a !important;
+}
+
+#changelist-filter li.selected a:hover, #changelist-filter li a:hover{
+    color: #bc6ff1 !important;
+}
+
+#changelist-filter li.selected a{
+    color: #bc6ff1 !important;
+}
+
+#changelist-filter li a{
+    color: #fff !important;
+}
+
+#changelist-filter ul{
+    border-bottom: 1px solid #424242 !important;
+}
+
+.required label, label.required{
+    color: #fff !important;
+}
+
+.form-row{
+    border-bottom: 1px solid #424242 !important;
+}
+
+div.help li, div.help, form div.help, .help{
+    color: #fff !important;
+}
+
+.submit-row{
+    background: #212121 !important;
+    border: none !important;
+}
+
+input[type="submit"]:hover{
+
+    background-color: #6a1b9a !important;
+    border-color: #6a1b9a !important;
+}
+
+input[type="submit"]{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border: 1px solid #6a1b9a !important;
+    background-color: #212121 !important;
+    border-color: #6a1b9a !important;
+    color: #fff !important;
+}
+
+.object-tools a:hover{
+    background-color: #bc6ff1 !important;
+}
+
+label, p.datetime{
+    color: #fff !important;
+}
+
+table thead th .text a:hover{
+    background: #6a1b9a !important;
+}
+
+.selector-chosen h2, .selector .selector-available h2{
+    background-color: #212121 !important;
+    border: 2px solid #424242 !important;
+    color: #fff !important;
+}
+
+a.selector-chooseall, a.selector-clearall{
+    color: #fff !important;
+}
+
+a.selector-chooseall:hover{
+    color: #bc6ff1 !important;
+}
+
+a.selector-clearall{
+    color: #fff !important;
+}
+
+.login #content, #footer, .submit-row{
+    background-color: #212121 !important;
+}

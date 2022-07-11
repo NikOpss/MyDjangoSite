@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DynamoDBConfiguration">
+    <option name="databaseConfigurations">
+      <map>
+        <entry key="dd4cbb01-bc67-40ac-8c92-ef294ce13e04">
+          <value>
+            <I>
+              <option name="id" value="dd4cbb01-bc67-40ac-8c92-ef294ce13e04" />
+              <option name="label" value="DynamoDB" />
+            </I>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
